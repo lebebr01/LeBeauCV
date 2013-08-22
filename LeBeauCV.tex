@@ -1,0 +1,287 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Friggeri Resume/CV
+% XeLaTeX Template
+% Version 1.0 (5/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Adrien Friggeri (adrien@friggeri.net)
+% https://github.com/afriggeri/CV
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important notes:
+% This template needs to be compiled with XeLaTeX and the bibliography, if used,
+% needs to be compiled with biber rather than bibtex.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
+\usepackage[english]{babel}
+\usepackage{csquotes}
+
+\hypersetup{%
+  colorlinks=false,% hyperlinks will be black
+  linkbordercolor=blue,% hyperlink borders will be blue
+  pdfborderstyle={/S/U/W 1}% border style will be underline of width 1pt
+}
+
+\addbibresource{bibliography.bib} % Specify the bibliography file to include publications
+
+\begin{document}
+
+\header{Brandon}{LeBeau, PhD}{Data and Statistics Maven} % Your name and current job title/field
+
+%----------------------------------------------------------------------------------------
+%	SIDEBAR SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{aside} % In the aside, each new line forces a line break
+\section{Contact}
+4245 NE Meadow Creek Cir
+Apartment 106
+Fayetteville, AR 72703
+~
+(507) 993-4865
+~
+\href{mailto:lebea027@umn.edu}{lebea027@umn.edu}
+%\href{http://www.smith.com}{http://www.smith.com}
+%\href{http://facebook.com/johnsmith}{fb://jsmith}
+
+\section{Statistics}
+Linear Mixed Model
+Regression
+Meta Analysis
+Simulation
+Research Design
+Propensity Score
+
+\section{Programming}
+{\color{green} $\varheartsuit$} R, Stata, SPSS, 
+Lisrel, Amos, SQL, 
+Unix, \TeX{}, \LaTeX{}, 
+B\textsc{ib}\TeX{}, B\textsc{ib}\LaTeX{},
+HTML, CSS
+\end{aside}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2007--2013}
+{Doctor {\normalfont of Philosophy}}
+{University of Minnesota}
+{Educational Psychology -- Quantitative Methods in Education \\ \emph{Misspecification of the covariance matrix in the linear mixed model: A monte carlo simulation}} %\\ This thesis explored the idea that money has been the cause of untold anguish and suffering in the world. I found that it has, in fact, not.}
+%------------------------------------------------
+\entry
+{2003--2007}
+{Bachelor {\normalfont of Arts}}
+{Luther College}
+{\emph{Major:} Psychology \\ \emph{Minor:} Mathematics}
+%------------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Research}
+
+% -------------------------------------------------------
+% Research Subsection
+% -------------------------------------------------------
+
+%\subsection{Research}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2012--2013}
+{Saint Paul Public Schools}
+{Saint Paul, Minnesota}
+{\emph{Assessment Specialist} \\
+Analyzed districtwide assessment data and prepared reports to disseminate to stakeholders, including school board, superintendent, staff, and parents. Also performed statistical analyses to evaluate district programs. \\
+Detailed achievements:
+\begin{itemize}
+\item Reproducible assessment reports -- No more copy and pasting.
+\item Reduced assessment reporting period from 10 day to 3 days.
+\item Started R user group to improve R knowledge at the district.
+\end{itemize}}
+%------------------------------------------------
+\entry
+{2012--2012}
+{College of Liberal Arts}
+{Minneapolis, Minnesota}
+{\emph{Quantitative Analyst} \\
+Helped the College of Liberal Arts explore trends in time to degree. Used graphical procedures to explore bottlenecks in time to degree.}
+%------------------------------------------------
+\entry
+{2009-2012}
+{Office of Research Consultation and Services}
+{Minneapolis, Minnesota}
+{\emph{Research Consultant} \\
+Assisted graduate students and university faculty on their theses or research projects. Provided methodological and statistical advice and performed analyses for sponsored faculty projects.}
+%------------------------------------------------
+\entry
+{2009-2011}
+{Minnesota Mathematics Achievement Project}
+{Minneapolis, Minnesota}
+{\emph{Quantitative Analyst} \\
+Performed statistical analyses, using cross-sectional and longitudinal multilevel models, on a National Science Foundation grant. Aided in preparing manuscripts for publications and attended national conferences.}
+% -----------------------------------------------
+\entry
+{2010-2011}
+{Department of Educational Psychology}
+{Minneapolis, Minnesota}
+{\emph{Research Assistant} \\
+Conducted simulation studies in R and presented findings in biweekly meetings.  Prepared a technical report summarizing findings.}
+% -----------------------------------------------
+\entry
+{2009-2010}
+{Saint Paul Public Schools}
+{Saint Paul, Minnesota}
+{\emph{Quantitative Analyst} \\
+Analzed assessment data using descriptive and inferential analyses. Prepared reports for dissemination to stakeholders.}
+% -----------------------------------------------
+\end{entrylist}
+
+% -----------------------------------------------------------
+% Teaching Subsection
+% -----------------------------------------------------------
+\newpage 
+\section{Teaching}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{2013--Now}
+{University of Arkansas}
+{Fayetteville, Arkansas}
+{\emph{Visiting Assistant Professor} \\
+Led two introductory statistics courses, one undergraduate course titled: \textit{Statisics in Nursing} and one graduate level course titled: \textit{Statistics in Education and Health Professions}}
+% ----------------------------------------------
+\entry
+{2011-2012}
+{Department of Educational Psychology}
+{Minneapolis, Minnesota}
+{\emph{Teaching Assistant} \\
+Assisted professor in an introductory graduate statistics course. Held office hours, graded assignment, and led a series of labs to acquant students with the R language.}
+% ----------------------------------------------
+\entry
+{2008-2009}
+{Department of Educational Psychology}
+{Minneapolis, Minnesota}
+{\emph{Graduate Instructor} \\
+Led three sections of an introductory undergraduate statistics course. Led students through topics such as descriptive statistics, sampling distributions, and t-tests. Used group/exploratory learning as much as possible.}
+% ----------------------------------------------
+\entry
+{2007-2008}
+{Department of Educational Psychology}
+{Minneapolis, Minnesota}
+{\emph{Teaching Assistant} \\
+Assisted with an introductory undergraduate and graduate statistics course. Helped facilitate labs, graded assignments and exams, and held office hours.}
+% ----------------------------------------------
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Packages}
+
+\begin{entrylist}
+%------------------------------------------------
+\entry
+{SPSStoR}
+{R Package}
+{\href{https://github.com/lebebr01/SPSStoR}{https://github.com/lebebr01/SPSStoR}}
+{A R package that converts SPSS syntax to comparable R syntax.}
+%%------------------------------------------------
+\entry
+{simReg}
+{R Package}
+{\href{https://github.com/lebebr01/simReg}{https://github.com/lebebr01/simReg}}
+{A R package that simulates regression models, both single and multilevel.
+Exploring power analysis by simulation.}
+%-----------------------------------------------
+\entry
+{highlightHTML}
+{R Package}
+{\href{https://github.com/lebebr01/highlightHTML}{https://github.com/lebebr01/highlightHTML}}
+{A R package that post processes HTML files to add highlighting to table cells using CSS.}
+\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	COMMUNICATION SKILLS SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{communication skills}
+
+%\begin{entrylist}
+%------------------------------------------------
+%\entry
+%{2011}
+%{Oral Presentation}
+%{California Business Conference}
+%{Presented the research I conducted for my Masters of Commerce degree.}
+%%------------------------------------------------
+%\entry
+%{2010}
+%{Poster}
+%{Annual Business Conference, Oregon}
+%{As part of the course work for BUS320, I created a poster analyzing several local businesses and presented this at a conference.}
+%------------------------------------------------
+%\end{entrylist}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Interests}
+
+\textbf{Statistics:} Simulation, Regression, Linear Mixed Models, Meta Analysis, Longitudinal Data,  \textbf{Research:} Longitudinal Methodological issues, Promoting science, technology, engineering, and mathematics majors, Time to degree, National School Lunch Program
+
+%----------------------------------------------------------------------------------------
+%	PUBLICATIONS SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Publications}
+
+\begin{refsection} % Print all articles not in press from the bibliography
+\nocite{*}
+\printbibliography[sorting=chronological, type=article, title={Published Articles}, notkeyword={In Press}, heading=subbibliography]
+\end{refsection} 
+
+\begin{refsection} % Print all articles not in press from the bibliography
+\nocite{*}
+\printbibliography[sorting=chronological, type=article, title={Articles In Press}, keyword={In Press}, heading=subbibliography]
+\end{refsection} 
+
+\printbibsection{unpublished}{Unpublished} % Print all books from the bibliography
+
+%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"
+%\nocite{*}
+%\printbibliography[sorting=chronological, type=inproceedings, title={international peer-reviewed conferences/proceedings}, notkeyword={france}, heading=subbibliography]
+%\end{refsection}
+
+%\begin{refsection} % This is a custom heading for those references marked as "inproceedings" and containing "keyword=france"
+%\nocite{*}
+%\printbibliography[sorting=chronological, type=inproceedings, title={local peer-reviewed conferences/proceedings}, keyword={france}, heading=subbibliography]
+%\end{refsection}
+
+\printbibsection{misc}{Presentations} % Print all miscellaneous entries from the bibliography
+
+%\printbibsection{report}{research reports} % Print all research reports from the bibliography
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
+
