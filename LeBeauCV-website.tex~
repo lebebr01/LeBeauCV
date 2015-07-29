@@ -33,7 +33,7 @@
 
 \begin{document}
 
-\header{Brandon}{LeBeau, PhD}{Data and Statistics Maven} % Your name and current job title/field
+\header{Brandon}{LeBeau}{, PhD}{Data and Statistics Maven} % Your name and current job title/field
 
 %----------------------------------------------------------------------------------------
 %	SIDEBAR SECTION
@@ -41,12 +41,7 @@
 
 \begin{aside} % In the aside, each new line forces a line break
 \section{Contact}
-1327 Foster Road
-Iowa City, IA  52245
-~
-(507) 993-4865
-~
-\href{mailto:brandon-lebeau@uiowa.edu}{brandon-lebeau@uiowa.edu}
+\href{mailto:brandonl@uark.edu}{brandonl@uark.edu}
 \href{http://educate-r.org}{http://educate-r.org}
 %\href{http://facebook.com/johnsmith}{fb://jsmith}
 
@@ -56,15 +51,14 @@ Regression
 Meta Analysis
 Simulation
 Research Design
-Propensity Scores
+Propensity Score
 
 \section{Programming}
-{\color{green} $\varheartsuit$} R, Stata, SPSS, SAS,
-Lisrel, Amos, Mplus,
-SQL, Unix, \TeX{}, \LaTeX{}, 
+{\color{green} $\varheartsuit$} R, Stata, SPSS, 
+Lisrel, Amos, SQL, 
+Unix, \TeX{}, \LaTeX{}, 
 B\textsc{ib}\TeX{}, B\textsc{ib}\LaTeX{},
-HTML, CSS,
-Javascript
+HTML, CSS
 \end{aside}
 
 %----------------------------------------------------------------------------------------
@@ -102,20 +96,14 @@ Javascript
 %\subsection{Research}
 
 \begin{entrylist}
-\entry
-{2014--now}
-{University of Iowa}
-{Iowa City, IA}
-{\emph{Assistant Professor} \\
-This unique position within the College of Education has my time split evenly between the Iowa Testing Programs and the Educational Measurement and Statistics program.  I am teaching an online graduate course titled: \textit{Computer Packages for Statistical Analysis}}
 %------------------------------------------------
 \entry
-{2013--2014}
+{2013--Now}
 {University of Arkansas}
 {Fayetteville, Arkansas}
 {\emph{Visiting Assistant Professor} \\
-Primary responsibilities were teaching. While there I led six introductory statistics courses (3 undergraduate and 3 graduate level) as well as 2 sections of a graduate level research methods course. \\
-Course titles taught (level of course in parentheses):
+Led three sections of introductory statistics, one section at the undergraduate level and two at the graduate level in the Fall 2013 semester.  Scheduled to teach the same three sections in Spring 2014 with an additional section of a graduate research methods course. \\
+Course titles taught or scheduled to teach, level of course in parentheses:
 \begin{itemize}
 \item Statistics in Nursing (Undergraduate)
 \item Statistics in Education and Health Profession (Graduate)
@@ -142,7 +130,7 @@ Detailed achievements:
 % -----------------------------------------------------------
 % Teaching Subsection
 % -----------------------------------------------------------
-\newpage 
+%\newpage 
 \section{Graduate Experience}
 
 \begin{entrylist}
@@ -161,6 +149,10 @@ Helped the College of Liberal Arts explore trends in time to degree. Used graphi
 {\emph{Teaching Assistant} \\
 Assisted professor in an introductory graduate statistics course. Held office hours, graded assignment, and led a series of labs to acquant students with the R language.}
 %------------------------------------------------
+\end{entrylist}
+
+\newpage 
+\begin{entrylist}
 \entry
 {2009-2012}
 {Office of Research Consultation and Services}
@@ -234,51 +226,26 @@ Exploring power analysis by simulation.}
 \end{entrylist}
 
 %----------------------------------------------------------------------------------------
-%   SERVICE SECTION
+%	COMMUNICATION SKILLS SECTION
 %----------------------------------------------------------------------------------------
-\newpage 
-\section{Service}
-\begin{entrylist}
-\entry
-{2014--now}
-{Iowa Educational Research \& Evaluation Association (IEREA)}
-{Council member}
-{Help plan the annual conference for Iowa's local Educational conference. Primary responsibility with rating poster submissions.}
-%-----------------------------
-\entry
-{2014--now}
-{Big Ten Online Symposium}
-{University of Iowa Coordinator}
-{Coordinated Iowa's portion of the Big Ten Online Symposium in conjunction with the University of Minnesota and Univeristy of Nebraska.}
 
-%------------------------------
-\entry
-{2014--now}
-{American Educational Research Association}
-{Reviewer}
-{Reviewed sessions for the annual conference for Division H and the Multilevel Model special interest group.}
+%\section{communication skills}
 
-%---------------------------------
-\entry
-{2014--now}
-{Review of Educational Research}
-{Reviewer}
-{Review journal article submissions as asked by the editors.}
-
-%---------------------------------
-\entry
-{2014}
-{Technology Innovations in Statistics Education}
-{Reviewer}
-{Review journal article submissions as asked by the editors.}
-
-%---------------------------------
-\entry
-{2014}
-{Routledge Publishing}
-{Reviewer}
-{Reviewed book proposal regarding effective use of educational assessment, particularly aimed toward preservice teachers.}
-\end{entrylist}
+%\begin{entrylist}
+%------------------------------------------------
+%\entry
+%{2011}
+%{Oral Presentation}
+%{California Business Conference}
+%{Presented the research I conducted for my Masters of Commerce degree.}
+%%------------------------------------------------
+%\entry
+%{2010}
+%{Poster}
+%{Annual Business Conference, Oregon}
+%{As part of the course work for BUS320, I created a poster analyzing several local businesses and presented this at a conference.}
+%------------------------------------------------
+%\end{entrylist}
 
 %----------------------------------------------------------------------------------------
 %  INTERESTS SECTION
@@ -293,7 +260,7 @@ Exploring power analysis by simulation.}
 %----------------------------------------------------------------------------------------
 %	PUBLICATIONS SECTION
 %----------------------------------------------------------------------------------------
-%\newpage
+\newpage
 \section{Publications}
 
 \begin{refsection} % Print all articles not in press from the bibliography
@@ -302,15 +269,18 @@ Exploring power analysis by simulation.}
 \printbibliography[sorting=chronological, type=article, title={Published Articles}, notkeyword = {In Press}, notkeyword={In Prep}, heading=none]
 \end{refsection} 
 
+%\begin{refsection} % Print all articles in press from the bibliography
+%\nocite{*}
+%\printbibliography[sorting=chronological, type=article, title={Articles In Press}, keyword={In Press}, heading=subbibliography]
+%\end{refsection} 
+
 %\newpage 
 \begin{refsection} % Print all articles in preparation from the bibliography
 \nocite{*}
 \printbibliography[sorting=chronological, type=article, title={Articles In Preparation}, keyword={In Prep}, heading=subbibliography]
 \end{refsection} 
 
-\printbibsection{report}{Technical Reports}
-
-%\newpage 
+\newpage 
 \printbibsection{unpublished}{Unpublished} % Print all books from the bibliography
 
 %\begin{refsection} % This is a custom heading for those references marked as "inproceedings" but not containing "keyword=france"

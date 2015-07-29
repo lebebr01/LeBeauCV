@@ -27,6 +27,12 @@
 \definecolor{red}{HTML}{FB4485}
 \definecolor{blue}{HTML}{6CE0F1}
 
+% Define Minnesota Gold color
+\definecolor{minngold}{RGB}{255, 204, 51}
+\definecolor{uigold}{RGB}{255, 225, 0}
+% Define Minnesota Maroon color
+\definecolor{minnmaroon}{RGB}{122, 0, 25}
+
 \ifdefined\@cv@print
   \colorlet{green}{gray}
   \colorlet{orange}{gray}
@@ -37,8 +43,8 @@
   \colorlet{fillheader}{white}
   \colorlet{header}{gray}
 \else
-  \colorlet{fillheader}{gray}
-  \colorlet{header}{white}
+  \colorlet{fillheader}{darkgray}
+  \colorlet{header}{minngold}
 \fi
 \colorlet{textcolor}{gray}
 \colorlet{headercolor}{gray}
@@ -68,7 +74,7 @@
 \newcommand{\rolefont}{%
   \fontsize{14pt}{24pt}\selectfont%
   \thinfont%
-  \color{white}%
+  \color{uigold}%
 }
 
 \newcommand{\header}[3]{%
@@ -100,10 +106,11 @@
       \ifcase\value{colorCounter}%
         blue\or%
         red\or%
-        orange\or%
+        uigold\or%
         green\or%
         purple\or%
-        brown\else%
+        brown\or%
+        orange\else%
         headercolor\fi%
     } #1#2#3%
   }%
@@ -294,7 +301,9 @@
     \setunit{\space}%
     \printfield{number}%
     \setunit{\addcomma\space}%
-    \printfield{date}%
+    \printlist{institution}
+    \setunit{\addcomma\space}%
+    \printfield{year}%
     \newunit%
   }
   \par\vspace{0.3\baselineskip}

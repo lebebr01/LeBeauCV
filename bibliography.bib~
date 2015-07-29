@@ -1,0 +1,198 @@
+@article{harwell2010student,
+  title={Student eligibility for a free lunch as an SES measure in education research},
+  author={Harwell, Michael and LeBeau, Brandon},
+  journaltitle={Educational Researcher},
+  volume={39},
+  number={2},
+  pages={120--131},
+  date={2010},
+  publisher={SAGE Publications}
+}
+
+@article{lebeau2012student,
+  title={Student and high-school characteristics related to completing a science, technology, engineering or mathematics (STEM) major in college},
+  author={LeBeau, Brandon and Harwell, Michael and Monson, Debra and Dupuis, Danielle and Medhanie, Amanuel and Post, Thomas R},
+  journaltitle={Research in Science \& Technological Education},
+  volume={30},
+  number={1},
+  pages={17--28},
+  date={2012},
+  publisher={Taylor \& Francis}
+}
+
+@article{dupuis2012multi,
+  title={A Multi-Institutional Study of the Relationship between High School Mathematics Achievement and Performance in Introductory COLLEGE Statistics},
+  author={Dupuis, Danielle N and Medhanie, Amanuel and Harwell, Michael and LeBeau, Brandon and Monson, Debra and Post, Thomas R},
+  journaltitle={Statistics Education Research Journal},
+  volume={11},
+  number={1},
+  pages={4--20},
+  date={2012},
+  publisher={International Association for Statistics Education and the International Statistical Institute. PO Box 24070, 2490 AB The Hague, The Netherlands}
+}
+
+@article{medhanie2012role,
+  title={The role of the ACCUPLACER mathematics placement test on a student’s first college mathematics course},
+  author={Medhanie, Amanuel G and Dupuis, Danielle N and LeBeau, Brandon and Harwell, Michael R and Post, Thomas R},
+  journaltitle={Educational and Psychological Measurement},
+  volume={72},
+  number={2},
+  pages={332--351},
+  date={2012},
+  publisher={Sage Publications}
+}
+
+@phdthesis{lebeau2013misspecification,
+  title={Misspecification of the covariance matrix in the linear mixed model: A monte carlo simulation},
+  author={LeBeau, Brandon},
+  date={2013},
+  school={University Of Minnesota}
+}
+
+@article{sharkey2012outcomes,
+  title={Outcomes Assessment of Case-Based Writing Exercises in a Veterinary Clinical Pathology Course},
+  author={Sharkey, Leslie and Michael, Helen and LeBeau, Brandon and Center, Bruce and Wingert, Deb},
+  journaltitle={Journal of veterinary medical education},
+  volume={39},
+  number={4},
+  pages={396--403},
+  date={2012},
+  publisher={UT Press}
+}
+@article{harwell2013ERQ,
+ author = {Harwell, Michael and Dupuis Danielle and Post, Thomas and Medhanie, Amanuel and LeBeau, Brandon},
+ ISSN = {01965042},
+ journaltitle = {Educational Research Quarterly},
+ keywords = {HIGH schools, MATHEMATICS -- Study & teaching, CURRICULA (Courses of study), UNIVERSITIES & colleges, ACADEMIC   achievement, META-analysis},
+ number = {3},
+ pages = {22 - 46},
+ title = {The Impact of Institutional Factors on the Relationship Between High School Mathematics Curricula and College Mathematics Course-Taking and Achievement.},
+ volume = {36},
+ URL = {http://search.ebscohost.com.ezp2.lib.umn.edu/login.aspx?direct=true&db=aph&AN=87503084&site=ehost-live},
+ date = {2013},
+}
+
+@misc{lebeau2013aera,
+ author = {LeBeau, Brandon},
+ title = {Impact of non-normal level one and two residuals on the linear mixed model},
+ note = {Paper presented at American Educational Research Association (AERA), San Francisco, CA},
+ month = {April},
+ date = {2013}
+}
+
+@article{lebeau2014lmm,
+ author = {LeBeau, Brandon},
+ title = {Impact of non-normal level one and two residuals on the linear mixed model: A monte carlo simulation},
+ journaltitle = {In Preparation for Communication in Statistics -- Simulation and Computation},
+ date = {2014},
+ keywords = {In Prep},
+ pubstate = {\bibstring{In Preparation}}
+}
+
+@article{lebeau2014diss1,
+ author = {LeBeau, Brandon},
+ title = {Misspecification of the covariance matrix with the linear mixed model: A monte carlo simulation},
+ journaltitle = {In preparation for Journal of educational and behavioral statistics},
+ date = {2014},
+ keywords = {In Prep},
+ pubstate = {\bibstring{In Preparation}}
+}
+
+@article{lebeau2014diss2,
+ author = {LeBeau, Brandon},
+ title = {Impact of serial correlation on random effect misspecification with the linear mixed model},
+ journaltitle = {In preparation for Multivariate Behavioral Research},
+ date = {2014},
+ keywords = {In Prep},
+ pubstate = {\bibstring{In Preparation}}
+}
+
+@article{harwell2013developmental,
+ author = {Harwell, Michael and Post, Thomas and LeBeau, Brandon and Dupuis, Danielle and Medhanie, Amanuel},
+ journaltitle = {Educational Research Quarterly},
+ title = {A multisite study of high school mathematics curricula and developmental mathematics course-taking in college},
+ date = {2013},
+ keywords = {In Press},
+ pubstate = {\bibstring{In Press}},
+}
+
+@article{harwell2013jrme,
+ author = {Harwell, Michael and Post, Thomas and Medhanie, Amanuel and Dupuis, Danielle and LeBeau, Brandon},
+ title = {A multi-institutional study of the relationship between high school mathematics curricula and college mathematics achievement and course taking},
+ journaltitle = {Journal for Research in Mathematics Education},
+ date = {2013},
+ keywords = {In Press},
+ pubstate = {\bibstring{In Press}},
+}
+
+@misc{lebeau2014meta,
+ author = {LeBeau, Brandon},
+ title = {Model misspecification and assumption violations with the linear mixed model: A meta analysis},
+ note = {Paper accepted to American Educational Research Association (AERA) conference, Philadelphia, PA},
+ date = {2014},
+ month = {April},
+}
+
+@misc{lebeau2013rspps,
+ author = {LeBeau, Brandon},
+ title = {Introduction to R -- Practical reasons to use R in a large urban school district},
+ date = {2013},
+ month = {March},
+ note = {Presentation to the Research, Evaluation, and Assessment department at the Saint Paul Public Schools, Saint Paul, MN},
+}
+
+@misc{lebeau2013mondospps,
+ author = {LeBeau, Brandon and Palma, Jose},
+ title = {Linking the 3rd Grade Reading MAP and Mondo Assessments: A logistic regression analysis},
+ date = {2013},
+ month = {April},
+ note = {Presentation to the Evaluation Roundtable at the Saint Paul Public Schools, Saint Paul, MN},
+}
+
+@misc{lebeau2012aaspps,
+ author = {LeBeau, Brandon},
+ title = {Exploring the interaction between gender and race/ethnicity at Saint Paul Public Schools},
+ date = {2012},
+ month = {December},
+ note = {Presentation to the Evaluation Roundtable at the Saint Paul Public Schools, Saint Paul, MN},
+ }
+
+@misc{harwell2011sree,
+ author = {Harwell, Michael and LeBeau, Brandon and Post, Thomas and Medhanie, Amanuel and Dupuis, Danielle},
+ title = {A multisite study of the relationship between high school mathematics curricula and developmental mathematics course-taking and achievement in college},
+ month = {March},
+ date = {2011},
+ note = {Paper presented at the Society for Research on Educational Effectiveness, Washington DC},
+}
+
+@misc{harwell2010aera,
+ author = {Harwell, Michael and Post, Thomas and Dupuis, Danielle and Medhanie, Amanuel and LeBeau, Brandon and Monson, Debra},
+ title = {An institutional analysis of the relationship between high school mathematics curricula and preparation for college mathematics},
+ month = {May},
+ date = {2010},
+ note = {Paper presented at the annual meeting of the American Educational Research Association, Denver, CO},
+}
+
+@misc{zieffler2009latex,
+ author = {Zieffler, Andrew and LeBeau, Brandon},
+ title = {Basics of \LaTeX{}},
+ month = {February},
+ date = {2009},
+ note = {Presentation at the University of Minnesota, Minneapolis, MN},
+}
+
+@misc{zieffler2008r,
+ author = {Zieffler, Andrew and LeBeau, Brandon},
+ title = {Introduction to R},
+ month = {November},
+ date = {2008},
+ note = {Presentation at the University of Minnesota, Minneapolis, MN},
+}
+
+@misc{lebeau2008r,
+ author = {LeBeau, Brandon},
+ title = {Introduction to R},
+ month = {July},
+ date = {2008},
+ note = {Presentation at the University of Minnesota, Minneapolis, MN},
+}
